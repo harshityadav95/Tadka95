@@ -4,7 +4,7 @@ import streamlit as st
 
 
 def show_logo(width, padding, margin):
-    with open('images/tadka95_squarelogo.png', 'rb') as f:
+    with open('images/android-chrome-512x512.png', 'rb') as f:
         data = f.read()
     link = 'https://harshityadav.in'
     padding_top, padding_right, padding_bottom, padding_left = padding

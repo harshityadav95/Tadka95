@@ -15,11 +15,19 @@
 import streamlit as st
 from streamlit.logger import get_logger
 
+from uihelpers import sidebar
+
 LOGGER = get_logger(__name__)
 
 
 def run():
     # sidebar.sidebar_head()
+
+    st.set_page_config(
+        page_title="Tadka95",
+        page_icon="images/android-chrome-512x512.png",
+        layout="wide",
+    )
 
     st.write("# Welcome to Tadka95! 👋")
 
