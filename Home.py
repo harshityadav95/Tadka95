@@ -25,7 +25,7 @@ def run():
 
     st.set_page_config(
         page_title="Tadka95",
-        page_icon="images/android-chrome-512x512.png",
+        page_icon="images/favicon.ico",
         layout="wide",
     )
 
